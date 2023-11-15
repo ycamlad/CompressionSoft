@@ -1,0 +1,14 @@
+﻿  ChrisZip.cpp
+C:\Users\chris\source\repos\ChrisZip\ChrisZip.cpp(4,1): warning C4005: '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(533): message : see previous definition of '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES'
+  zpipe.cpp
+  Generating Code...
+zpipe.obj : error LNK2019: unresolved external symbol _deflate referenced in function "public: int __thiscall Zpipe::def(struct _iobuf *,struct _iobuf *,int)" (?def@Zpipe@@QAEHPAU_iobuf@@0H@Z)
+zpipe.obj : error LNK2019: unresolved external symbol _deflateEnd referenced in function "public: int __thiscall Zpipe::def(struct _iobuf *,struct _iobuf *,int)" (?def@Zpipe@@QAEHPAU_iobuf@@0H@Z)
+zpipe.obj : error LNK2019: unresolved external symbol _inflate referenced in function "public: int __thiscall Zpipe::inf(struct _iobuf *,struct _iobuf *)" (?inf@Zpipe@@QAEHPAU_iobuf@@0@Z)
+zpipe.obj : error LNK2019: unresolved external symbol _inflateEnd referenced in function "public: int __thiscall Zpipe::inf(struct _iobuf *,struct _iobuf *)" (?inf@Zpipe@@QAEHPAU_iobuf@@0@Z)
+zpipe.obj : error LNK2019: unresolved external symbol _deflateInit_ referenced in function "public: int __thiscall Zpipe::def(struct _iobuf *,struct _iobuf *,int)" (?def@Zpipe@@QAEHPAU_iobuf@@0H@Z)
+zpipe.obj : error LNK2019: unresolved external symbol _inflateInit_ referenced in function "public: int __thiscall Zpipe::inf(struct _iobuf *,struct _iobuf *)" (?inf@Zpipe@@QAEHPAU_iobuf@@0@Z)
+C:\Program Files\zlib\lib\zlib.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\zlib\lib\zlibstatic.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\chris\source\repos\ChrisZip\Debug\ChrisZip.exe : fatal error LNK1120: 6 unresolved externals

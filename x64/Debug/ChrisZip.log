@@ -1,0 +1,4 @@
+﻿  zpipe.cpp
+C:\Users\chris\source\repos\ChrisZip\zpipe.cpp(75,52): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+C:\Users\chris\source\repos\ChrisZip\zpipe.cpp(138,52): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+  ChrisZip.vcxproj -> C:\Users\chris\source\repos\ChrisZip\x64\Debug\ChrisZip.exe
